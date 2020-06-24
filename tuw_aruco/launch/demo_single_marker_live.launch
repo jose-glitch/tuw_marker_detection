@@ -1,7 +1,7 @@
 <launch>
 
    <!-- load camera -->
-  <include file="$(find tuw_aruco)/launch/ps3-cam.launch" />
+  <include file="$(find tuw_aruco)/launch/elp-cam.launch" />
   
    <!-- load detection -->
   <include file="$(find tuw_aruco)/launch/single_marker_live.launch" />
